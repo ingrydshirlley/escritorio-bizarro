@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #e3e3e3;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
     justify-content: center;
 }
 
-header{
+header {
     width: 80%;
     height: 8rem;
     display: flex;
@@ -28,15 +28,15 @@ header{
     color: #62637D;
 }
 
-.logo{
+.logo {
     width: 13rem;
 }
 
-.logo-img{
+.logo-img {
     width: 100%;
 }
 
-.menu{
+.menu {
     gap: 2rem;
     display: flex;
     align-items: center;
@@ -44,17 +44,17 @@ header{
     cursor: pointer;
 }
 
-.items{
+.items {
     gap: 1.5rem;
     display: flex;
 }
 
-.menu-item{
+.menu-item {
     color: #62637D;
     font-weight: 500;
 }
 
-.saiba-mais{
+.saiba-mais {
     border: none;
     width: 140px;
     height: 55px;
@@ -66,39 +66,43 @@ header{
     cursor: pointer;
 }
 
-main{
+main {
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.home{
-    width: 100%;
+.home {
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
     gap: 20px;
+    height: fit-content;
 }
 
-.texts{
+.texts {
     display: grid;
     gap: 1.5rem;
     width: 50%;
 }
 
-.title{
+.title {
     font-size: 50px;
     font-weight: 800;
+    letter-spacing: -2px;
 }
 
-.sub-title{
+.sub-title {
     font-size: 25px;
     color: #62637D;
+    letter-spacing: -1px;
 }
 
-.btn-section{
+.btn-section {
     border: none;
     width: 300px;
     height: 50px;
@@ -110,6 +114,107 @@ main{
     cursor: pointer;
 }
 
-.imagem-homem{
+.imagem-homem {
     width: 350px;
+}
+
+.imagem-section {
+    display: flex;
+    align-items: end;
+    height: fit-content;
+}
+
+.servicos {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom, #e3e3e3 50%, white 50%);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.container-servicos{
+    background-color: #FAFAFA;
+    width: 70%;
+    height: 700px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-section-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 80px;
+}
+
+.title-servicos{
+    font-size: 15px;
+    background-color: #DAE4FF;
+    padding: 12px;
+    border-radius: 50px;
+    color: #356DFF;
+    width: 130px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.subtitle-servicos{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    width: 75%;
+    letter-spacing: -4px;
+}
+
+.cards-servicos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card-servico{
+    height: fit-content;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.ball{
+    background-color: #356DFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-servico{
+    width: 55%;
+}
+
+.title-card{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.text-card{
+    font-size: 16px;
+    text-align: center;
+    color: #62637D;
+}
+
+.conte-conosco{
+    background-color: #62637D;
+    height: 30px;
+    width: 100%;
 }
