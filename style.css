@@ -255,9 +255,171 @@ main {
     width: 300px;
 }
 
-.clientes{
+.clientes {
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    padding-top: 100px;
 }
 
+.container-clientes {
+    background-color: #FAFAFA;
+    width: 70%;
+    height: 850px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.title-section-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 80px;
+}
+
+.title-clientes {
+    font-size: 15px;
+    background-color: #DAE4FF;
+    padding: 12px;
+    border-radius: 50px;
+    color: #356DFF;
+    width: 130px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.subtitle-clientes {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    width: 70%;
+    letter-spacing: -4px;
+}
+
+#carousel {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 60px;
+}
+
+#slideshow {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.btn-slide {
+    gap: 35px;
+    display: flex;
+}
+
+.slide {
+    background-color: white;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.slide-next {
+    background-color: #356DFF;
+    border: none;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+}
+
+.card {
+    background: white;
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 460px;
+    height: auto;
+    font-size: 20px;
+    border-radius: 50px 50px 50px 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(5%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-5%);
+    }
+}
+
+.card.active {
+    animation-name: slideInRight;
+}
+
+.card.hide {
+    animation-name: slideOutLeft;
+}
+
+.recomendo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.coment {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.person {
+    height: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.person-name {
+    font-weight: bold;
+}
+
+.person-profission {
+    font-size: 15px;
+    color: #41414f;
+}
