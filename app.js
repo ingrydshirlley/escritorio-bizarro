@@ -1,5 +1,4 @@
 window.addEventListener("DOMContentLoaded", function () {
-  var carousel = document.getElementById("carousel");
   var prevBtn = document.getElementById("prevBtn");
   var nextBtn = document.getElementById("nextBtn");
   var cards = document.querySelectorAll(".card");

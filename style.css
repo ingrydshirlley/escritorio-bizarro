@@ -143,7 +143,7 @@ main {
     align-items: center;
 }
 
-.title-section-servicos {
+.title-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,14 +273,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.title-section-clientes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 80px;
 }
 
 .title-clientes {
@@ -422,4 +414,153 @@ main {
 .person-profission {
     font-size: 15px;
     color: #41414f;
+}
+
+.contato {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.container-contato {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-area {
+    width: 50%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subtitle-contato {
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: -4px;
+}
+
+.text-contato {
+    font-size: 20px;
+    color: #41414f;
+    font-weight: 100;
+    width: 90%;
+}
+
+.bloco-endereco {
+    width: 70%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.blues {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+}
+
+.blue {
+    background-color: #356DFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts-endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    width: 100%;
+}
+
+.endereco {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 20px;
+}
+
+.forms-area {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #000;
+    height: 600px;
+    gap: 20px;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 15px;
+}
+
+input, select{
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.mensagem::placeholder {
+    font-family: 'DM Sans';
+}
+
+.title-form{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 90%;
+    align-self: center;
+}
+
+.submit{
+    background-color: #356DFF;
+    width: 250px;
+    height: 60px;
+    align-self: end;
+    margin-right: 5%;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    width: 100%;
 }
