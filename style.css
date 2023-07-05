@@ -520,7 +520,7 @@ form{
 
 input, select{
     width: 90%;
-    height: 70px;
+    height: 65px;
     border-radius: 10px;
     padding: 20px;
     font-size: 20px;
@@ -549,7 +549,7 @@ textarea {
 .submit{
     background-color: #356DFF;
     width: 250px;
-    height: 60px;
+    height: 50px;
     align-self: end;
     margin-right: 5%;
     border: none;
@@ -560,7 +560,35 @@ textarea {
 }
 
 footer {
-    height: 100px;
-    background-color: black;
+    height: auto;
     width: 100%;
+    padding: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.footer-span{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #62637D;
 }
